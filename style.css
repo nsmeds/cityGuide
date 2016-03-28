@@ -1,0 +1,108 @@
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Signika', sans-serif;
+  padding-left: 5%;
+  padding-right: 5%;
+  color: hsla(390,100%,90%,1);
+  background: 
+    linear-gradient(transparent 30%, #fff),
+    url("city.jpg") center center no-repeat;
+
+}
+
+header {
+  text-align: center;    
+}
+
+a {
+  text-decoration: none;
+  color: hsla(390,40%,90%,0.7);
+}
+
+a:hover,
+a:focus {
+  color: hsla(210,40%,90%,0.7);
+  transition-duration: 0.2s;
+}
+
+.h1 {
+  font-family: 'Monoton', cursive;
+  font-size: 3.5em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.h2 {
+  font-size: 1.5em;
+  margin-bottom: 0;  
+}
+
+.h3 {
+  margin: 0;
+}
+
+.hr {
+  margin-bottom: 1em;
+}
+
+.nav {
+  display: none;
+}
+
+.main {
+  padding: 1% 2%;
+  margin-top: 1%;
+  background-color: hsla(210,40%,90%,0.7);
+  border-radius: 2px;
+  color: hsla(390,100%,3%,0.7);
+}
+
+.main p {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.footer-ul {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  padding: 1em 1em;
+}
+
+.footer-ul li a {
+  padding-left: 1em;
+  padding-right: 1em;
+  color: hsla(210,40%,20%,0.7);
+}
+.footer-ul li a:hover,
+.footer-ul li a:focus {
+  color: hsla(210,40%,60%,0.7);
+  transition-duration: 0.2s;
+}
+
+
+
+@media screen and (min-width: 640px) {
+  
+  .h1 {
+    font-size: 6em;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+  }
+
+  .nav-ul {
+    display: flex;
+  }
+
+  .nav-ul li {
+    flex-grow: 1;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+}
